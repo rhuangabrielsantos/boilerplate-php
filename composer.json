@@ -8,6 +8,9 @@
             "email": "rhuan.santos@db1.com.br"
         }
     ],
+    "scripts": {
+        "tests": "./vendor/bin/phpunit --colors tests"
+    },
     "require": {
         "phpunit/phpunit": "^9.5"
     },
